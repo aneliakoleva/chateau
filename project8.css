@@ -1,0 +1,145 @@
+html,body,ul,h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    mRGIN: 0;
+}
+.header_menu ul {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    padding-top: 0;
+    margin-left: 33px;
+}
+.header_menu ul:first-child {
+    border-left: 1px solid grey;
+}
+.logo {
+    display: inline;
+}
+header {
+    background-image: url("slide-1.jpg");
+    height: 600px;
+}
+.nav_background {
+    background-color: rgba(13, 47, 51, 0.7);
+}
+nav {
+    width: 1200px;
+    margin: 0 auto;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 8px;
+    background-color: rgba(13, 47, 51, 0);
+    transition: 0.5s;
+}
+header nav ul li:hover {
+background-color: rgba(183,159,99,1);
+color: white;
+text-decoration: none;
+}
+header nav ul li a {
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+.title {
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.title h1 {
+    font-size: 60px;
+    font-family: 'Arimo', sans-serif;
+}
+.title h3 {
+    font-size: 20px;
+}
+.availability_wrap {
+    background-color: #2a425a;
+}
+.availability {
+    padding: 20px;
+}
+.availability button {
+    padding: 16px;
+}
+.circle_icon {
+    color: white;
+    font-size: 20px;
+}
+.right-inner-addon {
+    position: relative;
+
+}
+.right-inner-addon input {
+    padding: 20px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+}
+main h1 {
+    text-align: center;
+    margin-top: 140px;
+    color: black;
+    background-image: url("wt-bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px;
+}
+main p {
+    text-align: center;
+    margin-top: 50px;
+}
+.gallery {
+overflow: hidden;
+}
+
+.img_info {
+    text-align: center;
+    display: block;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(13,13,13,0.5);
+    width: 100%;
+    max-width: 371px;
+    padding: 14px;
+    z-index: 100;
+}
+.img_info span {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.article_info button{
+    background-color: #333360;
+    color: white;
+    padding: 15px 25px;
+    font-size: 17px;
+}
+.chateau {
+    text-align: center;
+}
+.chateau img {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.menu-wrapper {
+    
+}
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: white: ;
+    margin: 6px 0;
+}
